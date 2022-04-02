@@ -1,0 +1,22 @@
+body{
+  background-color: DarkSlateGray;
+  margin-left: 70px;
+  color: #e0e0e0;
+}
+
+.mdl-layout__header{
+  margin-left: -70px;
+}
+
+h1{
+  text-align: center;
+}
+
+td{
+  text-align: left;
+  padding: 8px;
+}
+
+.mdl-textfield__label, mdl-textfield__input{
+  color: #e0e0e0;
+}
