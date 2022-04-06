@@ -32,21 +32,17 @@ Assign-02-HTML-Calculations
 
   <body>
     <div>
-      
       <!-- MDL + JS -->
       <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
       <script src="./js/script.js"></script>
-
       <!-- MDL Header -->
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <span class="mdl-layout-title">Assign-02-HTML-Calculations</span>
         </div>
       </header>
-
       <!-- Webpage Title -->
       <h1>Quadratic Equation Calculator</h1>
-
       <!-- table of reference equations -->
       <table>
         <tr>
@@ -55,10 +51,9 @@ Assign-02-HTML-Calculations
         </tr>
         <tr class="mar">
           <td><img src="./images/quadraticFormula.jpg" alt="quadratic formula" height="100px" width="auto"</td>
-          <td><img src="./images/factoring.jpg" alt="formula for a trinomial factorization" height="90px" width="auto"</td>
+          <td><img src="./images/factoring.jpg" alt="trinomial factorization formula" height="90px" width="auto"</td>
         </tr>
       </table>
-
       <table>
         <!-- a value input -->
         <tr>
@@ -74,7 +69,6 @@ Assign-02-HTML-Calculations
             </form>
           </td>
         </tr>
-
         <!-- b value input -->
         <tr>
           <td>Enter the "b" value from your equation:</td>
@@ -89,7 +83,6 @@ Assign-02-HTML-Calculations
             </form>
           </td>
         </tr>
-
         <!-- c value input -->
         <tr>
           <td>Enter the "c" value from your equation:</td>
@@ -105,11 +98,13 @@ Assign-02-HTML-Calculations
           </td>
         </tr>
       </table>
-      
-      
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="buttonClicked()">Calculate</button>
-      <div id="answer"></div>
-
+      <center>
+        <!-- a bit of a warning -->
+        <p class="mar">If the output is NaN that means that the root was an imaginary number and the computer isn't able to process it. If that's the case then the answer to you eqation should be that it's not solvable or you can figure  it out on your own. :P</p>
+        <!-- button to make calculations -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="buttonClicked()">Calculate</button>
+        <div id="answer"></div>
+      </center>
       <br>
       <br>
     </div>

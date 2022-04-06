@@ -1,11 +1,12 @@
 body{
   background-color: DarkSlateGray;
-  margin-left: 70px;
+  margin-left: 30px;
   color: #e0e0e0;
 }
 
 .mdl-layout__header{
-  margin-left: -70px;
+  width: auto;
+  margin-left: -30px;
 }
 
 h1{
